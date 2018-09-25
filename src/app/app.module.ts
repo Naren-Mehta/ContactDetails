@@ -1,14 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule  } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { ContactComponent } from './contact/contact.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { AddContactComponent } from './add-contact/add-contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactComponent,
+    HeaderComponent,
+    FooterComponent,
+    AddContactComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

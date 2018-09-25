@@ -1,0 +1,21 @@
+<div class="col-md-12">
+<div class="form-group">
+    <label for="exampleInputName">Name</label>
+    <input type="text" class="form-control" id="exampleInputName" placeholder="Name" [(ngModel)]="name">
+  </div>
+
+  <div class="form-group">
+      <label for="exampleInputMobile">Mobile Number</label>
+      <input type="text" class="form-control" id="exampleInputMobile" placeholder="Name" [(ngModel)]="mobileNo">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputRingTone">Ring Tone</label>
+        <input type="text" class="form-control" id="exampleInputRingTone" placeholder="Name" [(ngModel)]="ringTone">
+      </div>
+
+
+  
+  <button type="submit" class="btn btn-primary" (click)="addNewContact()">Submit</button>
+
+</div>
